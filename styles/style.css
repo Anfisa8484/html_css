@@ -1,0 +1,22 @@
+.menu {
+    background: #8babe6;
+    padding: 10px;
+}
+.menu a {
+    display: inline;
+    background: #89c7bc;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: backgraund 0.3s;
+}
+.menu a:hover {
+    background: #89c78d;
+}
+
+.double{
+    border: 4px double #c789b7;
+}
