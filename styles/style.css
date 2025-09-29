@@ -1,6 +1,6 @@
 .menu {
     background: #8babe6;
-    padding: 10px;
+    padding: 20px;
 }
 .menu a {
     display: inline;
@@ -14,9 +14,84 @@
     transition: backgraund 0.3s;
 }
 .menu a:hover {
+   
     background: #89c78d;
 }
 
 .double{
+    display: block;
     border: 4px double #c789b7;
+}
+
+.box{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    background: #be4e5b;
+    border: 6px #bf72d6;
+
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.perent{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #be804e;
+}
+.child{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #beb74e;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    gap: 12px;
+}
+.boxx{
+    width: 80px;
+    height: 80px;
+    border: #505d82;
+    border: 2px solid #0b1636;
+}
+.abs{
+    position: absolute;
+    top: 0px;
+}
+.card{
+    position: relative;
+    width: 260px;
+    padding: 16px;
+    background: #a8b2d3;
+    border: 2px solid #8aa4eb;
+    border-radius: 10px
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #d3b8ed;
+    color: #bf72d6;
+    padding: 4px 8px;
+    border-radius: 9999px;
+}
+.stage{
+    position: relative;
+    width: 360px;
+    height: 220px;
+    margin: 24px auto;
+    background: #3d9dd5;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0d3146;
+    color: #cfeaff;
 }
